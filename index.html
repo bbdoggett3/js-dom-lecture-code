@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1 id = "heading-one"></h1>
-    <input placeholder='Add Item'/>
-    <button>Add</button>
+    <input id="ingredient=input" placeholder='Add Item' value=/>
+    <button id= "submit-btn" onclick='submit()'>Add</button>
     <ul>
         <li class= "ingredients">Tortilla</li>
         <li class= "ingredients">Cheese</li>
@@ -18,6 +18,14 @@
         <li>Fish</li>
         <li>Steak</li>
     </ul>    
+    <div id="parent" onclick="submit()">
+        <button id="child">Click Me</button>
+    </div>
+    <form>
+        <input>
+        <input>
+        <input type="submit" id="form-btn">
+    </form>
 </body>
 <script src="index.js"></script>
 </html>
